@@ -13,7 +13,7 @@ int main() {
 
     auto resultA = calculateA(data);
     auto [detA, opsA] = *resultA;
-    std::cout << "[Student A - Laplace] Det: " << detA << ", Operations: " << opsA << std::endl;
+    std::cout << "[Student A - Laplace result] Det: " << detA << ", Operations: " << opsA << std::endl;
 
     return 0;
 }
